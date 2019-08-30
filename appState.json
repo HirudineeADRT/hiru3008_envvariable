@@ -65,20 +65,22 @@
     ],
     "packageJSON": {
       "dependencies": {
+        "mysql": {
+          "name": "mysql",
+          "version": "2.17.1",
+          "language": "javascript"
+        },
         "Math": {
           "name": "Math",
+          "language": "javascript",
           "version": "0.0.1-security",
-          "language": "javascript"
+          "dev": false,
+          "notRemovable": false
         },
         "jimp": {
           "name": "jimp",
-          "version": "0.6.4",
-          "language": "javascript"
-        },
-        "mysql": {
-          "name": "mysql",
           "language": "javascript",
-          "version": "2.17.1",
+          "version": "0.6.4",
           "dev": false,
           "notRemovable": false
         }
@@ -87,12 +89,12 @@
   },
   "PROJECT_META": {
     "projectName": "hiru3008_envvariable",
-    "projectDescription": "",
+    "projectDescription": "Kumu desc",
     "projectVersion": "1.1.1",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567146302756
+    "lastSave": 1567146330253
   },
   "VCS_STATE": {
     "provider": "GitHub",

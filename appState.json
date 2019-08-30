@@ -61,11 +61,11 @@
   "PROJECT_META": {
     "projectName": "hiru3008_envvariable",
     "projectDescription": "",
-    "projectVersion": "1.0.0",
+    "projectVersion": "1.1.1",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567145302340
+    "lastSave": 1567145382781
   },
   "VCS_STATE": {
     "provider": "GitHub",

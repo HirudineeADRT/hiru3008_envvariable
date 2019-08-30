@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "58fbd71b-a288-4849-a5de-1adfab8587a5": {
+        "id": "58fbd71b-a288-4849-a5de-1adfab8587a5",
+        "parent": null,
+        "name": "hiru3008_envvariable",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "f63f42d4-a29b-4f9d-b18c-95dbb011e095"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru3008_envvariable"
+      },
+      "f63f42d4-a29b-4f9d-b18c-95dbb011e095": {
+        "id": "f63f42d4-a29b-4f9d-b18c-95dbb011e095",
+        "parent": "58fbd71b-a288-4849-a5de-1adfab8587a5",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3008_envvariable/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "58fbd71b-a288-4849-a5de-1adfab8587a5",
+    "openFiles": [
+      "f63f42d4-a29b-4f9d-b18c-95dbb011e095"
+    ],
+    "currentFileId": "f63f42d4-a29b-4f9d-b18c-95dbb011e095",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru3008_envvariable",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1567143943210
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru3008_envvariable",
+      "url": "https://github.com/HirudineeADRT/hiru3008_envvariable"
+    }
+  }
+}

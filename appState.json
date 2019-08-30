@@ -58,20 +58,22 @@
       "dependencies": {
         "Math": {
           "name": "Math",
+          "language": "javascript",
           "version": "0.0.1-security",
-          "language": "javascript"
+          "dev": false,
+          "notRemovable": false
         }
       }
     }
   },
   "PROJECT_META": {
     "projectName": "hiru3008_envvariable",
-    "projectDescription": "",
+    "projectDescription": "Kumu desc",
     "projectVersion": "1.1.1",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567145751647
+    "lastSave": 1567146122283
   },
   "VCS_STATE": {
     "provider": "GitHub",

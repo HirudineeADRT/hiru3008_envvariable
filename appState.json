@@ -30,7 +30,16 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "ffb87f21-c24a-4b30-979b-6c00188f4ce7": {
+            "id": "ffb87f21-c24a-4b30-979b-6c00188f4ce7",
+            "name": "Test event",
+            "functionId": "f63f42d4-a29b-4f9d-b18c-95dbb011e095",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "deletedFiles": [],
@@ -83,7 +92,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567146225442
+    "lastSave": 1567146302756
   },
   "VCS_STATE": {
     "provider": "GitHub",

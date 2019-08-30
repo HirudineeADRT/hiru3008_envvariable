@@ -56,12 +56,10 @@
     ],
     "packageJSON": {
       "dependencies": {
-        "Math": {
-          "name": "Math",
-          "language": "javascript",
-          "version": "0.0.1-security",
-          "dev": false,
-          "notRemovable": false
+        "mysql": {
+          "name": "mysql",
+          "version": "2.17.1",
+          "language": "javascript"
         }
       }
     }
@@ -73,7 +71,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567146122283
+    "lastSave": 1567146176865
   },
   "VCS_STATE": {
     "provider": "GitHub",

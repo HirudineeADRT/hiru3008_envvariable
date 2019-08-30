@@ -31,15 +31,7 @@
           "layers": []
         },
         "triggers": [],
-        "testCases": {
-          "ffb87f21-c24a-4b30-979b-6c00188f4ce7": {
-            "id": "ffb87f21-c24a-4b30-979b-6c00188f4ce7",
-            "name": "Test",
-            "functionId": "f63f42d4-a29b-4f9d-b18c-95dbb011e095",
-            "event": "{\r\n    \"header\": {\r\n        \"messageId\": \"F8752B11-69BB-4246-B923-3BFB27C06C7D\",\r\n        \"name\": \"DiscoverAppliancesRequest\",\r\n        \"namespace\": \"Alexa.ConnectedHome.Discovery\",\r\n        \"payloadVersion\": \"2\"\r\n    },\r\n    \"payload\": {\r\n        \"accessToken\": \"1\"\r\n    }\r\n}",
-            "eventTemplate": "alexa-smart-home-smart-home-discovery-request"
-          }
-        }
+        "testCases": {}
       }
     },
     "deletedFiles": [],
@@ -94,7 +86,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567146433061
+    "lastSave": 1567146609637
   },
   "VCS_STATE": {
     "provider": "GitHub",
